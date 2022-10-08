@@ -27,13 +27,11 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     justify-content: space-between;
     color: ${(props) => props.theme["gray-300"]};
 
-    ${(props) => props.type === 'CircleUp' && css`
+    ${(props) => props.type === 'CircleUp' ? css`
       svg{
         color: ${props.theme["green-300"]};
       }  
-    `}
-
-    ${(props) => props.type === 'CircleDown' && css`
+    `: props.type === 'CircleDown' && css`
       svg{
         color: ${props.theme["red-300"]};
       }  
