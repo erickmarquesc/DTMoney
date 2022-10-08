@@ -1,5 +1,6 @@
-import { SummaryCard, SummaryContainer } from "./styled";
 import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from "phosphor-react";
+import { SummaryCard, SummaryContainer } from "./styled";
+
 export function Summary() {
   return (
     <SummaryContainer>
