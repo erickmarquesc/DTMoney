@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "price": 14000,
+      "type": "income",
+      "category": "Venda",
+      "description": "DEsenvolvimento de site",
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "price": 37,
+      "type": "outcome",
+      "category": "Alimentação",
+      "description": "Burgão",
+      "createdAt": "2022-07-29T18:36:44.505Z"
+    }
+  ]
+}
