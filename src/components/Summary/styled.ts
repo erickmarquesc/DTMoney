@@ -12,8 +12,8 @@ export const SummaryContainer = styled.section`
 `;
 
 interface SummaryCardProps {
-  variant?: "green";
-  type?: "CircleUp" | "CircleDown"
+  variant?: "green" | "red"
+  type?: "income" | "outcome"
 };
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -27,11 +27,11 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     justify-content: space-between;
     color: ${(props) => props.theme["gray-300"]};
 
-    ${(props) => props.type === 'CircleUp' ? css`
+    ${(props) => props.type === 'income' ? css`
       svg{
         color: ${props.theme["green-300"]};
       }  
-    `: props.type === 'CircleDown' && css`
+    `: props.type === 'outcome' && css`
       svg{
         color: ${props.theme["red-300"]};
       }  
@@ -44,9 +44,11 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     margin-top: 1rem;
   }
 
-  ${(props) => props.variant === 'green' && css`
-    background: ${props.theme["green-700"]};
+  ${(props) => props.variant === 'green' ? css`
     color: ${props.theme.white};
+    background: ${props.theme["green-700"]};
+  `: props.variant === 'red' && css`
+    color: ${props.theme.white};
+    background: ${props.theme["red-500"]};
   `}
-
 `;
