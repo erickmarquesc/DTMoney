@@ -1,8 +1,8 @@
 import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./style";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
+import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { SearchForm } from "../SearchForm";
 import { useContext } from "react";
-import { dateFormatter, priceFormatter } from "../../utils/formatter";
 
 export function TransactionTable() {
 
