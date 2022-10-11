@@ -9,11 +9,20 @@ export interface ITransaction {
   type: 'income' | 'outcome';
 };
 
-export interface ITransactionContextType {
-  transactions: ITransaction[];
+export interface ICreatedTransaction {
+  price: number;
+  category: string;
+  description: string;
+  type: 'income' | 'outcome';
 };
 
-export interface ITransactionsProviderProps{
+export interface ITransactionContextType {
+  transactions: ITransaction[];
+  fetchTransactions: (query?: string) => Promise<void>;
+  createTransaction: (data: ICreatedTransaction)=> Promise<void>;
+};
+
+export interface ITransactionsProviderProps {
   children: ReactNode;
 }
 
