@@ -4,7 +4,7 @@
       "type": "income",
       "price": 14150,
       "category": "Venda",
-      "description": "DEsenvolvimento de site",
+      "description": "Desenvolvimento de site",
       "createdAt": "2022-07-29T19:36:44.505Z",
       "id": 1
     },
@@ -15,6 +15,6 @@
       "description": "Burgão",
       "createdAt": "2022-07-29T18:36:44.505Z",
       "id": 2
-    },
+    }
   ]
 }
