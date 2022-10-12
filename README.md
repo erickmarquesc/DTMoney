@@ -36,7 +36,7 @@
 </p>
  
 
-<p disply=flex>DTMoney.do<p>
+<p disply=flex>DTMoney<p>
 
 ## Descrição do Projeto
 Nesse projeto, desenvolvi uma aplicação de controle de finanças no estilo lista, que contém as seguintes funcionalidades:
