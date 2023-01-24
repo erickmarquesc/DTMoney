@@ -1,44 +1,23 @@
+<h1 align="center">DTMoney</h1>
 <p align="center">
- <img heigth="150" Width="150" style="max-width:100%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">Erick Marques Cabral</h2>
- <p align="center">
-  <img 
-       heigth="30"
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-  <img 
-       heigth="30" 
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-  <img 
-       heigth="30" 
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
-  <img 
-       heigth="30" 
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-  <img 
-       heigth="30" 
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
-  <img 
-       heigth="30" 
-       Width="40"
-       style="max-width:100%"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-  </p>
+Erick Marques Cabral
 </p>
- 
+<p align="center">
+Esse projeto é exclusivo e foi promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<a href="https://www.rocketseat.com.br/">Rocketseat🔗</a>.
+</p> <br/>
 
-<p disply=flex>DTMoney<p>
+<p align="center">
+  <a href="#-descrição">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+</p>
 
-## Descrição do Projeto
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.svg" width="100%">
+</p>
+
+## 💻 Descrição
 Nesse projeto, desenvolvi uma aplicação de controle de finanças no estilo lista, que contém as seguintes funcionalidades:
 
 - Adicionar uma nova entrada ou saída
@@ -55,5 +34,17 @@ Apesar de serem poucas funcionalidades, precisei abordar conceitos como:
 - Contexto
 - Consumo de API
 - Performance no React
-    
-Esse projeto foi baseado nas aulas do curso da <a href="https://www.rocketseat.com.br/">Rocketseat🔗</a>.
+
+## 🚀 Tecnologias
+- HTML e CSS
+- JavaScript
+- Git
+- Figma
+- Vite
+- TypeScript
+- Json-Server
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/BjHRCn1QfwL8YSbFQWGGFW/DT-Money?node-id=0%3A1&t=4L4upWI9VDwOp6tM-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
