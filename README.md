@@ -10,7 +10,7 @@ Esse projeto é exclusivo e foi promovido pela Rocketseat para ensino de tecnolo
 <p align="center">
   <a href="#-descrição">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-layout">Layout</a> 
 </p>
 
 <p align="center">
